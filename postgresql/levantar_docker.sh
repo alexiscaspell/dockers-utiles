@@ -4,8 +4,8 @@
 
 HOST_POSTGRES=localhost
 PUERTO_POSTGRES=5433
-USUARIO_POSTGRES=postgres
-PASS_POSTGRES=postgres
+USUARIO_POSTGRES=leafnoise
+PASS_POSTGRES=leafnoise
 
 
 ####################################
@@ -13,11 +13,11 @@ PASS_POSTGRES=postgres
 ####################################
 
 # descargar docker
-docker pull postgres
+#docker pull postgres
 
 
 # ejecutar postgres
-docker run -it -p $PUERTO_POSTGRES:5432 -e POSTGRES_PASSWORD=$PASS_POSTGRES -e POSTGRES_USER=$USUARIO_POSTGRES -h $HOST_POSTGRES -d postgres
+docker run -p $PUERTO_POSTGRES:5432 -e POSTGRES_PASSWORD=$PASS_POSTGRES -e POSTGRES_USER=$USUARIO_POSTGRES -h $HOST_POSTGRES -it postgres
 
 
 
