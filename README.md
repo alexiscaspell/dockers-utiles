@@ -1,4 +1,4 @@
-![alt text](http://elblogdelinformatico.com/wp-content/uploads/2018/10/docker.png)
+![alt text](https://www.docker.com/sites/default/files/Whale%20Logo332_5.png)
 
 # dockers-utiles
 
