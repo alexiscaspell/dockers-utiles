@@ -6,11 +6,9 @@ services:
 
     image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
     
-    restart: always
-    
     environment:
       - ACCEPT_EULA=Y
-      - SA_PASSWORD=leafnoise
+      - SA_PASSWORD=$$leafnoise%
       - MSSQL_PID=Express
 
     volumes:

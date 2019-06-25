@@ -8,5 +8,5 @@ imagen de sql server, el docker compose esta configurado para levantar un sql se
 ## ACCESOS
 
 - user: sa
-- pass: leafnoise
+- pass: $leafnoise%
 - puerto: 1433
