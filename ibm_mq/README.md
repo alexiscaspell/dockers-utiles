@@ -1,4 +1,4 @@
-![alt text](https://developer.ibm.com/messaging/wp-content/uploads/sites/18/2017/09/IBM-MQ-Sticker.png)
+![alt text](http://mq-academy.com/wp-content/uploads/2018/06/IBM-MQ-2-250x250.jpg)
 
 # IBM MQ
 
