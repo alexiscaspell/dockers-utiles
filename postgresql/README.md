@@ -7,12 +7,12 @@ imagen de postgresql, el docker compose esta configurado para levantar un postgr
 
 ## ACCESOS
 
-user: leafnoise
-pass: leafnoise
-puerto: 5432
+* user: leafnoise
+* pass: leafnoise
+* puerto: 5432
 
 
 ## VOLUMES
 
-postgres-data: con los datos guardados por porstgre
-sql: guardado dentro del docker en "/volumes/sql/" sirve para agregar scripts sql
+* postgres-data: con los datos guardados por porstgre
+* sql: guardado dentro del docker en "/volumes/sql/" sirve para agregar scripts sql
