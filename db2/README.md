@@ -1,12 +1,15 @@
-![alt text](https://messagegears.com/wp-content/uploads/2018/12/Databases2Artboard-1-copy-5_4-1.png)
+![alt text](https://electric-cloud.com/wp-content/uploads/IBM-DB2-plugin-electricflow-devops-platform.png)
 
 # DB2
 
 Imagen con un db2 configurado
 
-
 ## ACCESOS
 
-- user: sa
-- pass: $leafnoise%
-- puerto: 1433
+* **user**: sa
+* **pass**: $leafnoise%
+* **puerto**: 1433
+
+## VOLUMES
+
+* **database**: con los datos guardados de la base de datos
