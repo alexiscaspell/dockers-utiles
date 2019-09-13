@@ -1,4 +1,4 @@
-![alt text](https://www.docker.com/sites/default/files/Whale%20Logo332_5.png)
+![alt text](https://i.ibb.co/z6W3fjL/DK0fg8-CU8-AAfx-Ef-1.jpg)
 
 # dockers-utiles
 
