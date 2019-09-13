@@ -7,8 +7,9 @@ Imagen con un db2 configurado
 ## ACCESOS
 
 * **user**: sa
-* **pass**: $leafnoise%
-* **puerto**: 1433
+* **pass**: leafnoise1234
+* **puerto**: 50000
+* **base**: testdb
 
 ## VOLUMES
 
