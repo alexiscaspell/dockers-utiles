@@ -8,14 +8,15 @@ Imagen basada en maven con un proyecto en springboot para un despliegue rapido d
 
 ## PUERTOS
 	
-	* 8080
+*   8080
 
 
 ## VOLUMES
 
-	* codigo: donde se encuentra el codigo fuente, el pom debe encontrarse en esta ruta
-	* logs: ubiccion del log de springboot, se almacena como un archivo llamado spring-boot.log
-	* m2: carpeta con las dependencias descargadas por maven
+
+*  codigo: donde se encuentra el codigo fuente, el pom debe encontrarse en esta ruta
+*	logs: ubiccion del log de springboot, se almacena como un archivo llamado spring-boot.log
+*	m2: carpeta con las dependencias descargadas por maven
 
 ## IMPORTANTE!!!
 
