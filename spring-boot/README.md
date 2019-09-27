@@ -20,4 +20,4 @@ Imagen basada en maven con un proyecto en springboot para un despliegue rapido d
 
 ## IMPORTANTE!!!
 
-Es crucial que se le otorguen** permisos de escritura** a las carpetas de los volumes	
+Es crucial que se le otorguen **permisos de escritura** a las carpetas de los volumes	
