@@ -10,7 +10,7 @@ imagen de mysql server
 * **user**: leafnoise
 * **pass**: leafnoise
 * **puerto**: 3306
-
+* **BD de ejemplo**: database
 * **user root**: root
 * **pass root**: leafnoise
 
