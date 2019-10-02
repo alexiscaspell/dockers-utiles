@@ -11,6 +11,9 @@ imagen de mysql server
 * **pass**: leafnoise
 * **puerto**: 3306
 
+* **user root**: root
+* **pass root**: leafnoise
+
 
 ## VOLUMES
 
