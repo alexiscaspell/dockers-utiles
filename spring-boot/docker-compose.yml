@@ -3,21 +3,16 @@ version: "3.3"
 services:
     spring-boot:
         image: "maven:3.6.2-jdk-8"
-        
-        volumes:
-            - ./volume/codigo:/var/volume/codigo/
-            - ./volume/logs:/var/volume/logs/
-            - ./volume/m2:/root/.m2
-        
-        ports:
-            - "8080:8080"
-        
-        environment:
-            RUTA_CODIGO: "/var/volume/codigo"
-            RUTA_LOGS: "/var/volume/logs"
-            NOMBRE_ARCHIVO_LOGS: "spring-boot.log"
 
-        command: "mvn clean install spring-boot:run -f /var/volume/codigo \
-            -Dspring-boot.run.arguments=\
-            --spring.port=8080,\
-            --logging.file=/var/volume/logs/spring-boot.log" 
+        volumes:
+            - ./volumes/codigo:/var/volumes/codigo/
+            - ./volumes/logs:/var/volumes/logs/
+            - ./volumes/m2:/root/.m2
+
+        ports:
+            - "${PUERTO}:${PUERTO}"
+
+        command: "mvn clean install spring-boot:run -f ${RUTA_CODIGO_DOCKER} \
+        -Drun.arguments=\
+        --server.port=${PUERTO},\
+        --logging.file=${RUTA_LOGS_DOCKER}/${NOMBRE_ARCHIVO_LOGS}"

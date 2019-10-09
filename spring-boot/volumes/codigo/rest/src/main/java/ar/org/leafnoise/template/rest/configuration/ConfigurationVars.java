@@ -1,6 +1,5 @@
 package ar.org.leafnoise.template.rest.configuration;
 
-import java.lang.reflect.InvocationTargetException;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -37,14 +36,24 @@ public class ConfigurationVars {
 	public static <T> T get(String key, Class<T> typeProperty) {
 
 		String value = getPropertiesMap().get(key);
-
 		try {
+			if (typeProperty.isEnum()) {
+				return getEnum(key, typeProperty);
+			}
 			return typeProperty.getConstructor(String.class).newInstance(value);
-		} catch (InstantiationException | IllegalAccessException | IllegalArgumentException | InvocationTargetException
-				| NoSuchMethodException | SecurityException e) {
-			LOG.error(e.getLocalizedMessage(), e);
+
+		} catch (Exception e) {
+			String message = "Error en carga de variable -> KEY: %s; CLASE: %s";
+			LOG.error(String.format(message, key, typeProperty.getSimpleName()), e);
 			return null;
 		}
+	}
+
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	private static <T, E extends Enum> T getEnum(String key, Class<T> enumClass) {
+
+		String value = getPropertiesMap().get(key);
+		return (T) Enum.valueOf((Class<E>) enumClass, value.toUpperCase());
 	}
 
 	public static String get(String key) {
