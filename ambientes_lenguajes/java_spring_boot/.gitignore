@@ -3,7 +3,7 @@
 ##############################
 volumes/logs
 volumes/m2
-volumes/codigo/target
+volumes/*/target
 
 ##############################
 ## Java
