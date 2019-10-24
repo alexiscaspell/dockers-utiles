@@ -1,25 +1,26 @@
 version: "3.3"
 
 services:
-    spring-boot:
+    springboot:
         env_file: .env
         network_mode: "host"
-        # restart: always
+        restart: always
 
         image: "maven:3.6.2-jdk-8"
 
         volumes:
-            - ./volumes/codigo:/var/volumes/codigo/
-            - ./volumes/logs:/var/volumes/logs/
+            - ./volumes:/var/volumes/
             - ./volumes/m2:/root/.m2
 
         ports:
-            - "${PUERTO}:${PUERTO}"
-            - "8787:8787"
+            - "${SPRINGBOOT_PUERTO}:${SPRINGBOOT_PUERTO}"
+            - "${SPRINGBOOT_PUERTO_DEBUG}:${SPRINGBOOT_PUERTO_DEBUG}"
 
-        command: "mvn clean install spring-boot:run -f ${RUTA_CODIGO_DOCKER} \
-        -Drun.arguments=\
-        --server.port=${PUERTO},\
-        --logging.file=${RUTA_LOGS_DOCKER}/${NOMBRE_ARCHIVO_LOGS} \
-        --debug \
-        -Drun.jvmArguments=\"-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8787\""
+        working_dir: /var/volumes/
+        command: "mvn clean install spring-boot:run \
+            -f ${SPRINGBOOT_NOMBRE_PROYECTO} \
+            -Drun.arguments=\
+            --server.port=${SPRINGBOOT_PUERTO},\
+            --logging.file=./logs/${SPRINGBOOT_NOMBRE_LOG} \
+            --debug \
+            -Drun.jvmArguments=\"-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8787\""
