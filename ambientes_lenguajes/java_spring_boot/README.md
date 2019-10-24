@@ -1,5 +1,5 @@
-![alt text](springboot.png)
-![alt text](maven.png)
+![alt text](img/springboot.png)
+![alt text](img/maven.png)
 
 # SPRINGBOOT
 

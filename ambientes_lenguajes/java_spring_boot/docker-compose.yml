@@ -2,6 +2,10 @@ version: "3.3"
 
 services:
     spring-boot:
+        env_file: .env
+        network_mode: "host"
+        # restart: always
+
         image: "maven:3.6.2-jdk-8"
 
         volumes:
@@ -11,8 +15,11 @@ services:
 
         ports:
             - "${PUERTO}:${PUERTO}"
+            - "8787:8787"
 
         command: "mvn clean install spring-boot:run -f ${RUTA_CODIGO_DOCKER} \
         -Drun.arguments=\
         --server.port=${PUERTO},\
-        --logging.file=${RUTA_LOGS_DOCKER}/${NOMBRE_ARCHIVO_LOGS}"
+        --logging.file=${RUTA_LOGS_DOCKER}/${NOMBRE_ARCHIVO_LOGS} \
+        --debug \
+        -Drun.jvmArguments=\"-Xdebug -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=8787\""
