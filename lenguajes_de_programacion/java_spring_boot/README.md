@@ -25,4 +25,4 @@ en el archivo *.env* se encuentra las variables de entorno para configurar sprin
 ## IMPORTANTE!!!
 
 * Es crucial que se le otorguen **permisos de escritura** a las carpetas de los volumes	
-* En caso de correr **spring-boot 2** cambiar la linea *command* del compose de *-Drun.arguments* a *-Dspring-boot.run.arguments=*
+* En caso de correr **spring-boot 2** cambiar la linea *command* del compose de *-Drun.* a *-Dspring-boot.run.*
