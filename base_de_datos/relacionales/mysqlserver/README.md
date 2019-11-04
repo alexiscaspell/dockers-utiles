@@ -1,4 +1,4 @@
-![alt text](mysql.png)
+![alt text](img/mysql.png)
 
 # MySQL SERVER
 
