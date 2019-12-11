@@ -4,8 +4,7 @@ services:
 
   db2:
     env_file: .env
-    # network_mode: host
-    restart: always
+    # restart: always
     privileged: true
     
     image: ibmcom/db2
@@ -16,4 +15,4 @@ services:
     ports:
       - "${DB2_SERVER_PUERTO_EXPUESTO}:50000"
 
-    command: db2start
+    # command: db2start
