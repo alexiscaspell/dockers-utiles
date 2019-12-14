@@ -2,7 +2,7 @@ FROM daggerok/jboss-eap-7.1:7.1.6-alpine
 
 # CONFIGURACION
 WORKDIR $JBOSS_HOME
-COPY volumes/jboss ./volumes
+COPY volumes/jboss/dependencias /volumes/dependencias
 
 RUN rm -rf ./standalone/configuration/standalone_xml_history
 
