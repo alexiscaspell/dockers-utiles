@@ -10,6 +10,7 @@ services:
     - /tmp:/tmp
     - ./volumes/conf:/opt/druid/conf
     - ./volumes/logs:/opt/druid/var/sv
-
+    - ./volumes/segments:/opt/druid/var/druid/segments
+    - ./volumes/task:/opt/druid/var/druid/task
 
     

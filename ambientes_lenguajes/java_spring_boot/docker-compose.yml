@@ -3,7 +3,6 @@ version: "3.3"
 services:
     springboot:
         env_file: .env
-        network_mode: "host"
         restart: always
 
         image: "maven:3.6.2-jdk-8"
