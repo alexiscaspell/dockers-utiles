@@ -1,7 +1,6 @@
 version: "3.3"
 
 services:
-  
   mssql:
     image: mcr.microsoft.com/mssql/server:2017-latest-ubuntu
     restart: always
@@ -13,4 +12,9 @@ services:
       - ./volumes/mssql:/var/opt/mssql
 
     ports:
-      - "1433:1433"
+      - ${EXTERNAL_PORT:-1433}:1433
+
+networks:
+  default:
+    external:
+      name: phantom-network
