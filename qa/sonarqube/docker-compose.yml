@@ -1,7 +1,7 @@
 version: "3.7"
 
 services:
-  sonar-service:
+  sonarqube:
     image: sonarqube
     restart: always
 
