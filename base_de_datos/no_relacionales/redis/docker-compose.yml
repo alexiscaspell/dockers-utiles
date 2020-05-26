@@ -1,18 +1,21 @@
 version: "3.7"
 
 services:
+  redis:
+    image: redis:5.0.7
+    restart: always
+    env_file:
+      - ./docker-env/redis.env
 
-    redis:
-        image: redis:5.0.7
-        restart: always
-        
-        env_file: 
-            - ./docker-env/redis.env
+    volumes:
+      - ./volumes/redis/data:/data
 
-        volumes:
-            - ./volumes/redis/data:/data
+    ports:
+      - ${EXTERNAL_PORT:-6379}:6379
 
-        ports:
-            - "6379:6379"
+    command: redis-server --appendonly yes
 
-        command: redis-server --appendonly yes
+networks:
+  default:
+    external:
+      name: phantom-network

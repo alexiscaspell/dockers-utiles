@@ -1,4 +1,4 @@
-version: '3.3'
+version: "3.3"
 services:
   druid-service:
     image: fokkodriesprong/docker-druid:latest
@@ -7,9 +7,13 @@ services:
       - "8090:8888"
       - "8082:8888"
     volumes:
-    - /tmp:/tmp
-    - ./volumes/conf:/opt/druid/conf
-    - ./volumes/logs:/opt/druid/var/sv
+      - /tmp:/tmp
+      - ./volumes/conf:/opt/druid/conf
+      - ./volumes/logs:/opt/druid/var/sv
+      - ./volumes/segments:/opt/druid/var/druid/segments
+      - ./volumes/task:/opt/druid/var/druid/task
 
-
-    
+networks:
+  default:
+    external:
+      name: phantom-network
