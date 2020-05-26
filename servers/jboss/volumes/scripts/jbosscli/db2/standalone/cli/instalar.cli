@@ -1,0 +1,23 @@
+embed-server
+batch
+
+module add \
+    --name=com.db2 \
+    --resources=./scripts/jbosscli/db2/db2jcc4.jar \
+    --dependencies=javax.api,javax.transaction.api
+ 
+/subsystem=datasources/jdbc-driver=db2:add(driver-name="db2",driver-module-name="com.db2",driver-class-name=com.ibm.db2.jcc.DB2Driver)
+
+data-source add \
+    --name=db2DS \
+    --jndi-name=java:jboss/datasources/db2DS \
+    --driver-name=db2 \
+    --connection-url="jdbc:db2://localhost:50000/testdb" \
+    --user-name=sa \
+    --password="\$leafnoise%" \
+    --max-pool-size=10 \
+    --blocking-timeout-wait-millis=5000 \
+    --use-ccm=false \
+    --enabled=true
+
+run-batch

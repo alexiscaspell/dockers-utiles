@@ -1,0 +1,11 @@
+embed-server
+batch
+
+module add \
+    --name=com.sqlserver \
+    --resources=./scripts/jbosscli/sqlserver/mssql-jdbc.jar \
+    --dependencies=javax.api,javax.transaction.api
+ 
+/subsystem=datasources/jdbc-driver=sqlserver:add(driver-name="sqlserver",driver-module-name="com.sqlserver",driver-class-name=com.microsoft.sqlserver.jdbc.SQLServerDriver)
+
+run-batch

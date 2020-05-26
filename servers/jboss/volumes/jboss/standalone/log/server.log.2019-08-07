@@ -1,0 +1,331 @@
+2019-08-07 15:11:38,995 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.0.Final-redhat-1
+2019-08-07 15:11:40,064 INFO  [org.jboss.msc] (main) JBoss MSC version 1.2.7.SP1-redhat-1
+2019-08-07 15:11:40,337 INFO  [org.jboss.as] (MSC service thread 1-7) WFLYSRV0049: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) iniciando
+2019-08-07 15:11:40,339 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Propiedades del sistema configuradas:
+	[Standalone] = 
+	awt.toolkit = sun.awt.X11.XToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = /
+	java.awt.graphicsenv = sun.awt.X11GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.print.PSPrinterJob
+	java.class.path = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/endorsed
+	java.ext.dirs = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/ext:/usr/java/packages/lib/ext
+	java.home = /usr/lib/jvm/java-8-openjdk-amd64/jre
+	java.io.tmpdir = /tmp
+	java.library.path = /usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 1.8.0_222-8u222-b10-1ubuntu1~18.04.1-b10
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Private Build
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_222
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Private Build
+	java.vm.version = 25.222-b10
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1
+	jboss.host.name = leafnoise-omen-by-hp-laptop
+	jboss.modules.dir = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = leafnoise-omen-by-hp-laptop
+	jboss.qualified.host.name = leafnoise-omen-by-hp-laptop
+	jboss.server.base.dir = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone
+	jboss.server.config.dir = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/configuration
+	jboss.server.data.dir = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/data
+	jboss.server.deploy.dir = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/data/content
+	jboss.server.log.dir = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/log
+	jboss.server.name = leafnoise-omen-by-hp-laptop
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/tmp
+	line.separator = 
+
+	logging.configuration = file:/home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/configuration/logging.properties
+	module.path = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/modules
+	org.jboss.boot.log.file = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/log/server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Linux
+	os.version = 4.15.0-55-generic
+	path.separator = :
+	sun.arch.data.model = 64
+	sun.boot.class.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-8-openjdk-amd64/jre/classes
+	sun.boot.library.path = /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/amd64
+	sun.cpu.endian = little
+	sun.cpu.isalist = 
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/jboss-modules.jar -mp /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/modules org.jboss.as.standalone -Djboss.home.dir=/home/leafnoise/HerramientasDev/servers/jboss-eap-7.1 -Djboss.server.base.dir=/home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = UTF-8
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = unknown
+	user.country = AR
+	user.dir = /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/bin
+	user.home = /home/leafnoise
+	user.language = es
+	user.name = leafnoise
+	user.timezone = America/Argentina/Buenos_Aires
+2019-08-07 15:11:40,339 DEBUG [org.jboss.as.config] (MSC service thread 1-7) Argumentos de VM: -D[Standalone] -verbose:gc -Xloggc:/home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/log/gc.log -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -Xms1303m -Xmx1303m -XX:MetaspaceSize=96M -XX:MaxMetaspaceSize=256m -Djava.net.preferIPv4Stack=true -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=/home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/log/server.log -Dlogging.configuration=file:/home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/configuration/logging.properties 
+2019-08-07 15:11:44,998 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/core-service=management/management-interface=http-interface' está depreciado y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2019-08-07 15:11:45,016 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 23) WFLYCTL0028: El atributo 'security-realm' en el recurso en la dirección '/subsystem=undertow/server=default-server/https-listener=https' está depreciado y quizás sea retirado en una versión futura. Consulte la descripción de atributos en la salida de la operación read-resource-description para aprender más sobre la depreciación.
+2019-08-07 15:11:45,029 INFO  [org.wildfly.security] (ServerService Thread Pool -- 14) ELY00001: WildFly Elytron version 1.1.7.Final-redhat-1
+2019-08-07 15:11:45,499 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creando el servicio de administración http utilizando el enlace de socket (management-http) 
+2019-08-07 15:11:45,536 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.5.4.Final-redhat-1
+2019-08-07 15:11:45,563 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.5.4.Final-redhat-1
+2019-08-07 15:11:45,609 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 42) WFLYCLINF0001: Activando el subsistema Infinispan.
+2019-08-07 15:11:45,614 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 48) WFLYJSF0007: Se activaron las siguientes implementaciones JSF: [main]
+2019-08-07 15:11:45,618 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 50) WFLYNAM0001: Activando el subsistema de nominación
+2019-08-07 15:11:45,635 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 41) WFLYIO001: Worker 'default' ha configurado automáticamente los hilos de núcleo 16 con los hilos de tareas 128 en base a los procesadores 8 disponibles.
+2019-08-07 15:11:45,634 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 58) WFLYTX0013: El atributo node-identifier del /subsystem=transactions está configurado como el valor predeterminado. Esto es peligroso para los entornos que ejecutan varios servidores. Asegúrese de que el valor del atributo sea único.
+2019-08-07 15:11:45,639 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 57) WFLYSEC0002: Activando el subsistema de seguridad
+2019-08-07 15:11:45,639 INFO  [org.jboss.as.naming] (MSC service thread 1-2) WFLYNAM0003: Iniciando el servicio de nombrado
+2019-08-07 15:11:45,647 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Sesión de correo enlazada [java:jboss/mail/Default]
+2019-08-07 15:11:45,666 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 43) WFLYRS0016: RESTEasy versión 3.0.24.Final-redhat-1
+2019-08-07 15:11:45,750 INFO  [org.jboss.as.connector] (MSC service thread 1-7) WFLYJCA0009: Iniciando JCA subsistema (WildFly/IronJacamar 1.4.6.Final-redhat-1)
+2019-08-07 15:11:45,770 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 60) WFLYWS0002: Activando WebServices Extension
+2019-08-07 15:11:45,807 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Versión PicketBox actual=5.0.2.Final-redhat-1
+2019-08-07 15:11:46,165 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0003: Undertow 1.4.18.Final-redhat-2 iniciando
+2019-08-07 15:11:46,203 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class org.h2.Driver (versión 1.4)
+2019-08-07 15:11:46,221 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Servicio de controlador iniciado con driver-name = h2
+2019-08-07 15:11:46,512 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0004: Implementación del controlador que cumple con los requerimientos de JDBC class com.microsoft.sqlserver.jdbc.SQLServerDriver (versión 7.0)
+2019-08-07 15:11:46,512 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Servicio de controlador iniciado con driver-name = sqlserver
+2019-08-07 15:11:46,584 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Implementación de controladro que no cumple con los requerimientos de JDBC class com.mysql.jdbc.Driver (versión 5.1)
+2019-08-07 15:11:46,585 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Servicio de controlador iniciado con driver-name = mysql
+2019-08-07 15:11:46,616 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 36) WFLYJCA0005: Implementación de controladro que no cumple con los requerimientos de JDBC class org.postgresql.Driver (versión 42.2)
+2019-08-07 15:11:46,617 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Servicio de controlador iniciado con driver-name = postgresql
+2019-08-07 15:11:46,964 INFO  [org.jboss.remoting] (MSC service thread 1-4) JBoss Remoting version 5.0.5.Final-redhat-1
+2019-08-07 15:11:47,105 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 59) WFLYUT0014: Creación de controlador de archivos para la ruta de acceso '/home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/welcome-content' con las opciones s [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2019-08-07 15:11:47,300 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0012: El servidor ha iniciado default-server.
+2019-08-07 15:11:47,305 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host iniciando
+2019-08-07 15:11:47,486 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTP oyente default escuchando en 127.0.0.1:8080
+2019-08-07 15:11:47,498 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) WFLYEJB0481: El grupo estricto (slsb-strict-max-pool utiliza un tamaño de instancia máximo de 128 (por clase), el cual se deriva del tamaño de grupo del Worker de hilos. 
+2019-08-07 15:11:47,498 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: El grupo estricto mdb-strict-max-pool utiliza un tamaño de instancia máximo de 32 (por clase), el cual se deriva del número de CPUs en este host. 
+2019-08-07 15:11:48,069 INFO  [org.jboss.as.ejb3] (MSC service thread 1-7) WFLYEJB0493: Suspensión del subsistema de EJB completa
+2019-08-07 15:11:48,185 INFO  [org.jboss.as.patching] (MSC service thread 1-6) WFLYPAT0050: El ID de parche acumulativo JBoss EAP es: base, parches one-off incluyen: none
+2019-08-07 15:11:48,201 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-6) WFLYDM0111: No se encontró el KeyStore /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/configuration/application.keystore, será autogenerado durante la primera utilización con un certificado firmado automáticamente para el host localhost
+2019-08-07 15:11:48,209 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Fuente de datos vinculados [java:jboss/datasources/ExampleDS]
+2019-08-07 15:11:48,209 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Fuente de datos vinculados [java:jboss/datasources/OISS-ARGENTINA-DS]
+2019-08-07 15:11:48,210 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0001: Fuente de datos vinculados [java:jboss/datasources/SIDUJLIBDS]
+2019-08-07 15:11:48,210 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Fuente de datos vinculados [java:jboss/datasources/CIPRESDS]
+2019-08-07 15:11:48,214 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-6) WFLYDS0013: Inició FileSystemDeploymentService para el directorio /home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/deployments
+2019-08-07 15:11:48,233 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0027: Iniciando la implementación de sidu-webapp.war" (runtime-name: "sidu-webapp.war")
+2019-08-07 15:11:48,481 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTPS oyente https escuchando en 127.0.0.1:8443
+2019-08-07 15:11:48,861 INFO  [org.jboss.ws.common.management] (MSC service thread 1-5) JBWS022052: Starting JBossWS 5.1.9.Final-redhat-1 (Apache CXF 3.1.12.redhat-1) 
+2019-08-07 15:11:49,241 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0003: No se pudo poner un índice a la clase module-info.class en /content/sidu-webapp.war/WEB-INF/lib/mimepull-1.9.8.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 14
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:1417)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1451)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-08-07 15:11:49,442 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0003: No se pudo poner un índice a la clase module-info.class en /content/sidu-webapp.war/WEB-INF/lib/saaj-impl-1.5.0.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 26
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:1417)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1451)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-08-07 15:11:49,738 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0003: No se pudo poner un índice a la clase module-info.class en /content/sidu-webapp.war/WEB-INF/lib/javax.xml.soap-api-1.4.0.jar: java.lang.IllegalStateException: Unknown tag! pos=4 poolCount = 26
+	at org.jboss.jandex.Indexer.processConstantPool(Indexer.java:1417)
+	at org.jboss.jandex.Indexer.index(Indexer.java:1451)
+	at org.jboss.as.server.deployment.annotation.ResourceRootIndexer.indexResourceRoot(ResourceRootIndexer.java:99)
+	at org.jboss.as.server.deployment.annotation.AnnotationIndexProcessor.deploy(AnnotationIndexProcessor.java:51)
+	at org.jboss.as.server.deployment.DeploymentUnitPhaseService.start(DeploymentUnitPhaseService.java:165)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:2032)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1955)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2019-08-07 15:11:49,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase jaxws-api.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase jsr181-api.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase jsr250-api.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,828 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase saaj-api.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,829 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase saaj-impl.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,829 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase jsr173_api.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,829 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase sjsxp.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,829 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase woodstox.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,829 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase resolver.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,829 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase jaxb-api.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,830 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase jaxb-impl.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,830 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase activation.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,830 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase stax-ex.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,830 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase streambuffer.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,831 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase stax-utils.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,831 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase policy.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,831 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase gmbal-api-only.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,831 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase management-api.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxws-rt-2.2.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,832 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase log4j.jar en /content/sidu-webapp.war/WEB-INF/lib/commons-logging-1.0.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,832 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase log4j-core.jar en /content/sidu-webapp.war/WEB-INF/lib/commons-logging-1.0.3.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,833 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase jaxb-api.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxb-impl-2.2.3-1.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,833 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase activation.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxb-impl-2.2.3-1.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,833 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase jsr173_1.0_api.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxb-impl-2.2.3-1.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,833 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase jaxb1-impl.jar en /content/sidu-webapp.war/WEB-INF/lib/jaxb-impl-2.2.3-1.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,836 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase hk2-core.jar en /content/sidu-webapp.war/WEB-INF/lib/ha-api-3.1.8.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,837 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase config.jar en /content/sidu-webapp.war/WEB-INF/lib/ha-api-3.1.8.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,837 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase auto-depends.jar en /content/sidu-webapp.war/WEB-INF/lib/ha-api-3.1.8.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,837 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase asm-all-repackaged.jar en /content/sidu-webapp.war/WEB-INF/lib/ha-api-3.1.8.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:49,837 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0059: Entrada de ruta de clase bean-validator.jar en /content/sidu-webapp.war/WEB-INF/lib/ha-api-3.1.8.jar no apunta a una jar válida para una referencia  Class-Path.
+2019-08-07 15:11:50,296 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-1) WFLYSRV0018: La implementación "deployment.sidu-webapp.war" está utilizando un módulo privado ("asm.asm"), el cual se puede cambiar o borrar en versiones futuras sin previo aviso.
+2019-08-07 15:11:50,537 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional com.sun.xml.ws.transport.http.servlet.WSAsyncListener$1 debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2019-08-07 15:11:50,538 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: No se está instalando el componente opcional org.springframework.web.context.request.async.StandardServletAsyncWebRequest debido a una excepción (active el nivel de registro DEBUG para ver la razón)
+2019-08-07 15:11:50,984 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-1) ISPN000128: Infinispan version: Infinispan 'Chakra' 8.2.8.Final-redhat-1
+2019-08-07 15:11:51,079 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-6) JBWS024061: Adding service endpoint metadata: id=ar.gov.anses.sidu.ws.ServiceSiduWS
+ address=http://localhost:8080/sidu-webapp/ServiceSiduWS
+ implementor=ar.gov.anses.sidu.ws.ServiceSiduWS
+ serviceName={http://ws.sidu.anses.gov.ar/}ServiceSiduWSService
+ portName={http://ws.sidu.anses.gov.ar/}ServiceSiduWSPort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+2019-08-07 15:11:51,530 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 62) WFLYCLINF0002: Inició client-mappings caché del contenedor ejb 
+2019-08-07 15:11:51,885 INFO  [org.apache.cxf.wsdl.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-6) Creating Service {http://ws.sidu.anses.gov.ar/}ServiceSiduWSService from class ar.gov.anses.sidu.ws.ServiceSiduWS
+2019-08-07 15:11:52,221 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-6) Setting the server's publish address to be http://localhost:8080/sidu-webapp/ServiceSiduWS
+2019-08-07 15:11:52,300 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-6) JBWS024074: WSDL published to: file:/home/leafnoise/HerramientasDev/servers/jboss-eap-7.1/standalone/data/wsdl/sidu-webapp.war/ServiceSiduWSService.wsdl
+2019-08-07 15:11:52,365 INFO  [org.jboss.as.webservices] (MSC service thread 1-5) WFLYWS0003: Iniciando service jboss.ws.endpoint."sidu-webapp.war"."ar.gov.anses.sidu.ws.ServiceSiduWS"
+2019-08-07 15:11:52,583 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 66) Spring WebApplicationInitializers detected on classpath: [ar.gov.anses.sidu.util.MainWebAppInitializer@1d845318]
+2019-08-07 15:11:52,588 INFO  [ar.gov.anses.sidu.util.MainWebAppInitializer] (ServerService Thread Pool -- 66) MainWebAppInitializer.onStartup()
+2019-08-07 15:11:52,630 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 66) Initializing Spring root WebApplicationContext
+2019-08-07 15:11:52,630 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 66) Root WebApplicationContext: initialization started
+2019-08-07 15:11:52,640 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 66) Refreshing Root WebApplicationContext: startup date [Wed Aug 07 15:11:52 ART 2019]; root of context hierarchy
+2019-08-07 15:11:52,713 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 66) Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2019-08-07 15:11:52,888 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 66) Loading XML bean definitions from URL [vfs:/content/sidu-webapp.war/WEB-INF/classes/applicationContextWS.xml]
+2019-08-07 15:11:52,940 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 66) Loading XML bean definitions from URL [vfs:/content/sidu-webapp.war/WEB-INF/classes/applicationContextMQ.xml]
+2019-08-07 15:11:53,131 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 66) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-07 15:11:53,137 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] (ServerService Thread Pool -- 66) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f95ed7f: defining beans [com.sun.xml.ws.transport.http.servlet.SpringBinding#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,connectionFactory,destination,jmsTemplate,messageListener,exhibidorClient,messagePoolDAOImpl,propertiesConfig,siduWS,applicationController,exhibidorController,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,propertySourcesPlaceholderConfigurer]; root of factory hierarchy
+2019-08-07 15:11:53,544 INFO  [com.sun.xml.ws.monitoring] (ServerService Thread Pool -- 66) Metro monitoring rootname successfully set to: null
+2019-08-07 15:11:53,672 INFO  [org.springframework.web.context.ContextLoader] (ServerService Thread Pool -- 66) Root WebApplicationContext: initialization completed in 1041 ms
+2019-08-07 15:11:53,748 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 66) Inicializando Mojarra 2.2.13.SP4  para el contexto '/sidu-webapp'
+2019-08-07 15:11:54,862 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 66) Initializing Spring FrameworkServlet 'spring'
+2019-08-07 15:11:54,862 INFO  [org.springframework.web.servlet.DispatcherServlet] (ServerService Thread Pool -- 66) FrameworkServlet 'spring': initialization started
+2019-08-07 15:11:54,869 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 66) Refreshing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Aug 07 15:11:54 ART 2019]; parent: Root WebApplicationContext
+2019-08-07 15:11:54,871 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 66) Loading XML bean definitions from ServletContext resource [/WEB-INF/applicationContext.xml]
+2019-08-07 15:11:54,897 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 66) Loading XML bean definitions from URL [vfs:/content/sidu-webapp.war/WEB-INF/classes/applicationContextWS.xml]
+2019-08-07 15:11:54,927 INFO  [org.springframework.beans.factory.xml.XmlBeanDefinitionReader] (ServerService Thread Pool -- 66) Loading XML bean definitions from URL [vfs:/content/sidu-webapp.war/WEB-INF/classes/applicationContextMQ.xml]
+2019-08-07 15:11:54,998 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 66) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-07 15:11:55,001 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] (ServerService Thread Pool -- 66) Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18aea7b8: defining beans [com.sun.xml.ws.transport.http.servlet.SpringBinding#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,connectionFactory,destination,jmsTemplate,messageListener,exhibidorClient,messagePoolDAOImpl,propertiesConfig,siduWS,applicationController,exhibidorController,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,propertySourcesPlaceholderConfigurer]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@f95ed7f
+2019-08-07 15:11:55,013 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 66) JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-08-07 15:11:55,041 INFO  [com.sun.xml.ws.monitoring] (ServerService Thread Pool -- 66) Metro monitoring rootname successfully set to: null
+2019-08-07 15:11:55,088 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] (ServerService Thread Pool -- 66) Mapped URL path [/alive] onto handler 'applicationController'
+2019-08-07 15:11:55,089 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] (ServerService Thread Pool -- 66) Mapped URL path [/alive.*] onto handler 'applicationController'
+2019-08-07 15:11:55,090 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] (ServerService Thread Pool -- 66) Mapped URL path [/alive/] onto handler 'applicationController'
+2019-08-07 15:11:55,090 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] (ServerService Thread Pool -- 66) Mapped URL path [/sidu] onto handler 'exhibidorController'
+2019-08-07 15:11:55,090 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] (ServerService Thread Pool -- 66) Mapped URL path [/sidu.*] onto handler 'exhibidorController'
+2019-08-07 15:11:55,090 INFO  [org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping] (ServerService Thread Pool -- 66) Mapped URL path [/sidu/] onto handler 'exhibidorController'
+2019-08-07 15:11:55,207 INFO  [org.springframework.web.servlet.DispatcherServlet] (ServerService Thread Pool -- 66) FrameworkServlet 'spring': initialization completed in 345 ms
+2019-08-07 15:11:55,217 INFO  [com.sun.xml.ws.servlet.http] (ServerService Thread Pool -- 66) WSSERVLET14: JAX-WS servlet initializing
+2019-08-07 15:11:55,218 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0021: Contexto de Web registrado: '/sidu-webapp' para el servidor 'default-server'
+2019-08-07 15:11:55,228 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 37) WFLYSRV0010: Implementado "sidu-webapp.war" (runtime-name : "sidu-webapp.war")
+2019-08-07 15:11:55,299 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Reanudando el servidor
+2019-08-07 15:11:55,304 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Interfaz de administración http escuchando en http://127.0.0.1:9990/management
+2019-08-07 15:11:55,304 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Consola de administración escuchando en http://127.0.0.1:9990
+2019-08-07 15:11:55,304 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) inició en 16966ms - Inició 540 de 768 servicios (356 servicios son perezosos, pasivos o por demanda)
+2019-08-07 15:12:15,427 ERROR [ar.gov.anses.sidu.controller.ExhibidorController] (default task-7) Error desconocido al intentar obtener los datos del exhibidor con hash: 7a10d2ba9483a9dc68042e2678d73f72
+2019-08-07 15:12:15,428 ERROR [ar.gov.anses.sidu.controller.ExhibidorController] (default task-7) com.sun.xml.ws.wsdl.parser.InaccessibleWSDLException: 2 counts of InaccessibleWSDLException.
+
+java.io.IOException: Got Conexión rehusada (Connection refused) while opening stream from http://localhost:8380/ws/exhibidoresService.wsdl
+java.io.IOException: Got Conexión rehusada (Connection refused) while opening stream from http://localhost:8380/ws/exhibidoresService.wsdl?wsdl
+
+2019-08-07 15:12:16,091 WARN  [org.springframework.web.servlet.PageNotFound] (default task-10) No mapping found for HTTP request with URI [/sidu-webapp/js/jquery.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,092 WARN  [org.springframework.web.servlet.PageNotFound] (default task-9) No mapping found for HTTP request with URI [/sidu-webapp/css/main.css] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,092 WARN  [org.springframework.web.servlet.PageNotFound] (default task-8) No mapping found for HTTP request with URI [/sidu-webapp/js/jquery_ui_custom.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,096 WARN  [org.springframework.web.servlet.PageNotFound] (default task-11) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/charts/excanvas.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,098 WARN  [org.springframework.web.servlet.PageNotFound] (default task-13) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/forms/jquery.tagsinput.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,098 WARN  [org.springframework.web.servlet.PageNotFound] (default task-12) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/charts/jquery.sparkline.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,109 WARN  [org.springframework.web.servlet.PageNotFound] (default task-15) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/forms/jquery.autosize.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,110 WARN  [org.springframework.web.servlet.PageNotFound] (default task-14) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/forms/jquery.inputlimiter.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,119 WARN  [org.springframework.web.servlet.PageNotFound] (default task-17) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/forms/jquery.maskedinput.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,119 WARN  [org.springframework.web.servlet.PageNotFound] (default task-18) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/forms/jquery.uniform.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,119 WARN  [org.springframework.web.servlet.PageNotFound] (default task-16) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/forms/jquery.select2.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,124 WARN  [org.springframework.web.servlet.PageNotFound] (default task-19) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/forms/jquery.cleditor.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,134 WARN  [org.springframework.web.servlet.PageNotFound] (default task-22) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/uploader/plupload.html5.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,134 WARN  [org.springframework.web.servlet.PageNotFound] (default task-20) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/uploader/plupload.html4.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,134 WARN  [org.springframework.web.servlet.PageNotFound] (default task-21) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/uploader/plupload.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,139 WARN  [org.springframework.web.servlet.PageNotFound] (default task-24) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/ui/jquery.collapsible.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,139 WARN  [org.springframework.web.servlet.PageNotFound] (default task-25) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/uploader/jquery.plupload.queue.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,139 WARN  [org.springframework.web.servlet.PageNotFound] (default task-23) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/ui/jquery.timepicker.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,144 WARN  [org.springframework.web.servlet.PageNotFound] (default task-26) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/ui/jquery.pie.chart.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,144 WARN  [org.springframework.web.servlet.PageNotFound] (default task-27) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/ui/jquery.jgrowl.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,145 WARN  [org.springframework.web.servlet.PageNotFound] (default task-28) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/ui/jquery.fullcalendar.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,150 WARN  [org.springframework.web.servlet.PageNotFound] (default task-29) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/ui/jquery.elfinder.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,150 WARN  [org.springframework.web.servlet.PageNotFound] (default task-30) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/ui/jquery.fancybox.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,150 WARN  [org.springframework.web.servlet.PageNotFound] (default task-31) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/tables/jquery.dataTables.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,161 WARN  [org.springframework.web.servlet.PageNotFound] (default task-33) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/bootstrap/bootstrap-bootbox.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,161 WARN  [org.springframework.web.servlet.PageNotFound] (default task-34) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/bootstrap/bootstrap-progressbar.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,161 WARN  [org.springframework.web.servlet.PageNotFound] (default task-32) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/bootstrap/bootstrap.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,173 WARN  [org.springframework.web.servlet.PageNotFound] (default task-36) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/forms/jquery.ibutton.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,173 WARN  [org.springframework.web.servlet.PageNotFound] (default task-35) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/forms/jquery.dualListBox.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,174 WARN  [org.springframework.web.servlet.PageNotFound] (default task-37) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/forms/jquery.validate.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,174 WARN  [org.springframework.web.servlet.PageNotFound] (default task-39) No mapping found for HTTP request with URI [/sidu-webapp/js/jquery-1.9.1.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,175 WARN  [org.springframework.web.servlet.PageNotFound] (default task-40) No mapping found for HTTP request with URI [/sidu-webapp/js/bootstrap.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,175 WARN  [org.springframework.web.servlet.PageNotFound] (default task-38) No mapping found for HTTP request with URI [/sidu-webapp/js/plugins/bootstrap/bootstrap-colorpicker.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,185 WARN  [org.springframework.web.servlet.PageNotFound] (default task-42) No mapping found for HTTP request with URI [/sidu-webapp/js/activeMQClientPocSidu.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,185 WARN  [org.springframework.web.servlet.PageNotFound] (default task-41) No mapping found for HTTP request with URI [/sidu-webapp/js/jquery-ui-1.8.22.custom.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,189 WARN  [org.springframework.web.servlet.PageNotFound] (default task-46) No mapping found for HTTP request with URI [/sidu-webapp/images/anses.png] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,189 WARN  [org.springframework.web.servlet.PageNotFound] (default task-43) No mapping found for HTTP request with URI [/sidu-webapp/js/jquery.flip.min.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,189 WARN  [org.springframework.web.servlet.PageNotFound] (default task-45) No mapping found for HTTP request with URI [/sidu-webapp/js/jquery.flip.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,189 WARN  [org.springframework.web.servlet.PageNotFound] (default task-44) No mapping found for HTTP request with URI [/sidu-webapp/js/mqttws31.js] in DispatcherServlet with name 'spring'
+2019-08-07 15:12:16,191 WARN  [org.springframework.web.servlet.PageNotFound] (default task-47) No mapping found for HTTP request with URI [/sidu-webapp/images/elements/loaders/1.gif] in DispatcherServlet with name 'spring'
+2019-08-07 15:15:41,092 WARN  [org.springframework.web.servlet.PageNotFound] (default task-49) No mapping found for HTTP request with URI [/sidu-webapp/images/] in DispatcherServlet with name 'spring'
+2019-08-07 15:16:01,988 WARN  [org.springframework.web.servlet.PageNotFound] (default task-50) No mapping found for HTTP request with URI [/sidu-webapp/readme.ms] in DispatcherServlet with name 'spring'
+2019-08-07 15:16:04,377 WARN  [org.springframework.web.servlet.PageNotFound] (default task-51) No mapping found for HTTP request with URI [/sidu-webapp/readme.md] in DispatcherServlet with name 'spring'
+2019-08-07 15:16:09,824 WARN  [org.springframework.web.servlet.PageNotFound] (default task-52) No mapping found for HTTP request with URI [/sidu-webapp/README.md] in DispatcherServlet with name 'spring'
+2019-08-07 15:16:25,972 WARN  [org.springframework.web.servlet.PageNotFound] (default task-53) No mapping found for HTTP request with URI [/sidu-webapp/README.md] in DispatcherServlet with name 'spring'
+2019-08-07 20:38:19,236 INFO  [org.jboss.as.server] (Thread-2) WFLYSRV0220: El apagado del servidor ha sido solicitado a través de una señal de SO.
+2019-08-07 20:38:19,258 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0010: Fuente de datos desvinculados [java:jboss/datasources/CIPRESDS]
+2019-08-07 20:38:19,260 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-6) WFLYJCA0010: Fuente de datos desvinculados [java:jboss/datasources/SIDUJLIBDS]
+2019-08-07 20:38:19,260 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0010: Fuente de datos desvinculados [java:jboss/datasources/OISS-ARGENTINA-DS]
+2019-08-07 20:38:19,263 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 66) WFLYUT0022: Cancelado el registro del contexto de Web: '/sidu-webapp' del servidor 'default-server'
+2019-08-07 20:38:19,265 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 66) Destroying Spring FrameworkServlet 'spring'
+2019-08-07 20:38:19,265 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 66) Closing WebApplicationContext for namespace 'spring-servlet': startup date [Wed Aug 07 15:11:54 ART 2019]; parent: Root WebApplicationContext
+2019-08-07 20:38:19,266 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] (ServerService Thread Pool -- 66) Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@18aea7b8: defining beans [com.sun.xml.ws.transport.http.servlet.SpringBinding#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,connectionFactory,destination,jmsTemplate,messageListener,exhibidorClient,messagePoolDAOImpl,propertiesConfig,siduWS,applicationController,exhibidorController,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,propertySourcesPlaceholderConfigurer]; parent: org.springframework.beans.factory.support.DefaultListableBeanFactory@f95ed7f
+2019-08-07 20:38:19,275 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Servicio de controlador detenido con driver-name = mysql
+2019-08-07 20:38:19,276 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Servicio de controlador detenido con driver-name = postgresql
+2019-08-07 20:38:19,277 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 66) Closing Spring root WebApplicationContext
+2019-08-07 20:38:19,277 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Servicio de controlador detenido con driver-name = sqlserver
+2019-08-07 20:38:19,278 INFO  [org.springframework.web.context.support.XmlWebApplicationContext] (ServerService Thread Pool -- 66) Closing Root WebApplicationContext: startup date [Wed Aug 07 15:11:52 ART 2019]; root of context hierarchy
+2019-08-07 20:38:19,279 INFO  [org.springframework.beans.factory.support.DefaultListableBeanFactory] (ServerService Thread Pool -- 66) Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@f95ed7f: defining beans [com.sun.xml.ws.transport.http.servlet.SpringBinding#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,connectionFactory,destination,jmsTemplate,messageListener,exhibidorClient,messagePoolDAOImpl,propertiesConfig,siduWS,applicationController,exhibidorController,org.springframework.web.servlet.view.InternalResourceViewResolver#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,propertySourcesPlaceholderConfigurer]; root of factory hierarchy
+2019-08-07 20:38:19,289 INFO  [org.jboss.as.webservices] (MSC service thread 1-1) WFLYWS0004: Deteniendo service jboss.ws.endpoint."sidu-webapp.war"."ar.gov.anses.sidu.ws.ServiceSiduWS"
+2019-08-07 20:38:19,294 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0010: Fuente de datos desvinculados [java:jboss/datasources/ExampleDS]
+2019-08-07 20:38:19,296 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Servicio de controlador detenido con driver-name = h2
+2019-08-07 20:38:19,303 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0019: Host default-host deteniéndose
+2019-08-07 20:38:19,309 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 80) WFLYCLINF0003: Se detuvo client-mappings caché del contenedor ejb 
+2019-08-07 20:38:19,430 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0008: Undertow HTTPS oyente https  está en suspendiéndose
+2019-08-07 20:38:19,430 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0008: Undertow HTTP oyente default  está en suspendiéndose
+2019-08-07 20:38:19,431 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0007: Undertow HTTPS oyente https se ha detenido, estaba vinculado a 127.0.0.1:8443
+2019-08-07 20:38:19,431 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0007: Undertow HTTP oyente default se ha detenido, estaba vinculado a 127.0.0.1:8080
+2019-08-07 20:38:19,432 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0004: Undertow 1.4.18.Final-redhat-2 deteniéndose
+2019-08-07 20:38:19,449 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Se detuvo la implementaciónsidu-webapp.war (runtime-name: sidu-webapp.war) en 200ms
+2019-08-07 20:38:19,453 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0050: JBoss EAP 7.1.0.GA (WildFly Core 3.0.10.Final-redhat-1) detenido en 206ms

@@ -1,0 +1,23 @@
+version: "3.7"
+
+services:
+  jboss:
+    env_file:
+      - ./docker-env/jboss.env
+
+    build:
+      context: ./
+      dockerfile: ./dockerfiles/jboss.dockerfile
+
+    volumes:
+      - ./volumes/:/volumes
+
+    ports:
+      - 8080:8080
+      - 9990:9990
+      - 7080:7080
+
+networks:
+  default:
+    external:
+      name: phantom-network
