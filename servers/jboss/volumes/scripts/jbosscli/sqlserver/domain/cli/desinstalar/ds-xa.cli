@@ -1,0 +1,6 @@
+embed-server
+batch
+
+xa-data-source remove --name=sqlserverDSXA --profile=full-ha
+
+run-batch

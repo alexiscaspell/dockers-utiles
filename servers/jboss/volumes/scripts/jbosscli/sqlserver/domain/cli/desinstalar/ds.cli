@@ -1,0 +1,6 @@
+embed-server
+batch
+
+data-source remove --profile=full-ha --name=sqlserverDS
+
+run-batch

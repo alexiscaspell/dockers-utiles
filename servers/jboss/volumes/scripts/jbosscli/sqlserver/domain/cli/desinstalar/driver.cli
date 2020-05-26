@@ -1,0 +1,8 @@
+embed-server
+batch
+
+module remove --name=com.sqlserver
+ 
+/profile=full-ha/subsystem=datasources/jdbc-driver=sqlserver:remove
+
+run-batch

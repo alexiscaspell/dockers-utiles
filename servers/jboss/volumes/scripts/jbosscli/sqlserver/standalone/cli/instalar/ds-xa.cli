@@ -1,0 +1,13 @@
+embed-server
+batch
+
+xa-data-source add \
+    --name=sqlserverDSXA \
+    --jndi-name=java:jboss/datasources/sqlserverDSXA \
+    --driver-name=sqlserver \
+    --user-name=sa \
+    --password="\$\$Leafnoise%" \
+    --xa-datasource-class=com.microsoft.sqlserver.jdbc.SQLServerXADataSource \
+    --xa-datasource-properties=[{ServerName=localhost},{DatabaseName=master}]
+
+run-batch

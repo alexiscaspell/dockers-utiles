@@ -1,0 +1,7 @@
+2020-05-26 20:50:03,432 INFO  [org.jboss.modules] (main) JBoss Modules version 1.6.0.Final-redhat-1
+2020-05-26 20:50:03,765 INFO  [org.jboss.as.process.Host Controller.status] (main) WFLYPC0018: Starting process 'Host Controller'
+2020-05-26 20:50:07,483 INFO  [org.jboss.as.process.Server:server-one.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:server-one'
+2020-05-26 20:50:09,393 INFO  [org.jboss.as.process.Server:server-two.status] (ProcessController-threads - 3) WFLYPC0018: Starting process 'Server:server-two'
+2020-05-26 20:51:34,115 INFO  [org.jboss.as.process.Server:server-two.status] (ProcessController-threads - 4) WFLYPC0019: Stopping process 'Server:server-two'
+2020-05-26 20:51:34,357 INFO  [org.jboss.as.process.Server:server-two.status] (reaper for Server:server-two) WFLYPC0011: Process 'Server:server-two' finished with an exit status of 0
+2020-05-26 20:51:39,406 WARN  [org.jboss.as.process.Server:server-two.status] (ProcessController-threads - 4) WFLYPC0022: Failed to kill process 'Server:server-two', trying to destroy the process instead.
