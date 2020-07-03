@@ -1,6 +1,0 @@
-embed-server
-batch
-
-xa-data-source remove --name=sqlserverDSXA
-
-run-batch

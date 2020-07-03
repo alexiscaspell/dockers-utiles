@@ -1,23 +1,26 @@
 version: "3.7"
 
 services:
-  jboss:
+  jboss-eap-7.1:
+    image: registry.leafnoise.io/phantom/jboss-eap-7.1:latest
+
     env_file:
       - ./docker-env/jboss.env
 
-    build:
-      context: ./
-      dockerfile: ./dockerfiles/jboss.dockerfile
-
     volumes:
-      - ./volumes/:/volumes
+      - volume-jboss-eap-7.1:/var/sources/jboss:rw
 
     ports:
-      - 8080:8080
-      - 9990:9990
-      - 7080:7080
+      - ${EXTERNAL_PORT:-9990}:9990
+      - ${EXTERNAL_PORT_DEBUG:-7080}:7080
+      - ${EXTERNAL_PORT_CLI:-9999}:9999
+      - ${EXTERNAL_PORT_DEPLOY_MIN:-8080}-${EXTERNAL_PORT_DEPLOY_MAX:-8180}:8080-8180
 
 networks:
   default:
     external:
       name: phantom-network
+
+volumes:
+  volume-jboss-eap-7.1:
+    external: false

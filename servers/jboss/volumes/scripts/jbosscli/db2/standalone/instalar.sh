@@ -1,1 +1,0 @@
-./bin/jboss-cli.sh --file=./scripts/jbosscli/db2/standalone/cli/instalar.cli
