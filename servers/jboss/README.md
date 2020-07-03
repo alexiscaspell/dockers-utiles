@@ -65,5 +65,5 @@ En caso de querer crear la imagen con otro tag se debe modificar el script `./sc
 
 ## PAGINAS
 
-[openjdk docker hub](https://hub.docker.com/_/openjdk?tab=description)
-[jboss eap](https://developers.redhat.com/products/eap/download)
+- [openjdk docker hub](https://hub.docker.com/_/openjdk?tab=description)
+- [jboss eap](https://developers.redhat.com/products/eap/download)
