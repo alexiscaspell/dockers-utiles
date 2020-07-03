@@ -1,2 +1,1 @@
-/volumes/jboss/deployments/*
-/volumes/jboss/log/*
+/resources/jboss*

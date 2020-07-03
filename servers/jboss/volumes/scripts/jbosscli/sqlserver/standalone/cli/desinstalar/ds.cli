@@ -1,6 +1,0 @@
-embed-server
-batch
-
-data-source remove --name=sqlserverDS
-
-run-batch
