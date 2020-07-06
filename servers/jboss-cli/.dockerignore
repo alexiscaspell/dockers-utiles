@@ -1,0 +1,8 @@
+docs/
+scripts/
+volumes/
+
+.gitignore
+Dockerfile
+jboss-cli.sh
+README.md
