@@ -13,7 +13,7 @@
 
 ## EJECUCION
 
-* Para ejecutarlo se recomienda bajar los scripts del siguiente [link](https://hub.docker.com/_/openjdk?tab=description)
+* Para ejecutarlo se recomienda bajar los scripts del siguiente [link](https://git.leafnoise.io/BrianLobo/scripts-magicos/-/tree/master/servers/jboss-cli-remoto)
 
 ---
 
