@@ -9,8 +9,7 @@ services:
       - ./docker-env/mysql.env
 
     volumes:
-      - ./volumes/mysql/data:/var/lib/mysql
-      - ./volumes/mysql/sql/:/var/sql/
+      - mysql:/var/lib/mysql:rw
 
     ports:
       - ${EXTERNAL_PORT:-3306}:3306
@@ -21,3 +20,7 @@ networks:
   default:
     external:
       name: phantom-network
+
+volumes:
+  mysql:
+    external: false

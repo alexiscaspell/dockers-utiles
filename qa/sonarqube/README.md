@@ -16,9 +16,9 @@
 
 ## Volumes
 
-* **data**: con los datos guardados por Sonarqube
-* **config**: contiene la configiguracion para Sonarqube
-* **logs**: contiene logs de Sonarqube
+* **sonarqube**: con los datos guardados por Sonarqube
+* **sonarqube-config**: contiene la configiguracion para Sonarqube
+* **sonarqube-logs**: contiene logs de Sonarqube
 
 ## Pagina
 

@@ -10,7 +10,7 @@ services:
       - ./docker-env/db2.env
 
     volumes:
-      - ./volumes/db2:/database
+      - db2:/database:rw
 
     ports:
       - ${EXTERNAL_PORT:-50000}:50000
@@ -19,3 +19,7 @@ networks:
   default:
     external:
       name: phantom-network
+
+volumes:
+  db2:
+    external: false
