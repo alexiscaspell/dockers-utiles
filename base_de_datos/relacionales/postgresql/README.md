@@ -15,4 +15,3 @@
 ## VOLUMES
 
 * **postgres-data**: con los datos guardados por porstgre
-* **sql**: sirve para agregar scripts sql

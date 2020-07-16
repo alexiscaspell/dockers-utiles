@@ -6,9 +6,9 @@ services:
     restart: always
 
     volumes:
-      - ./volumes/sonarqube/conf:/opt/sonarqube/conf
-      - ./volumes/sonarqube/data:/opt/sonarqube/data
-      - ./volumes/sonarqube/logs:/opt/sonarqube/logs
+      - sonarqube:/opt/sonarqube/data:rw
+      - sonarqube-config:/opt/sonarqube/conf:rw
+      - sonarqube-logs:/opt/sonarqube/logs:rw
 
     ports:
       - ${EXTERNAL_PORT:-9000}:9000
@@ -17,3 +17,11 @@ networks:
   default:
     external:
       name: phantom-network
+
+volumes:
+  sonarqube:
+    external: false
+  sonarqube-config:
+    external: false
+  sonarqube-logs:
+    external: false

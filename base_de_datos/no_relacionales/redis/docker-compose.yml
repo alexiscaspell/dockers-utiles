@@ -8,7 +8,7 @@ services:
       - ./docker-env/redis.env
 
     volumes:
-      - ./volumes/redis/data:/data
+      - redis:/data:rw
 
     ports:
       - ${EXTERNAL_PORT:-6379}:6379
@@ -19,3 +19,7 @@ networks:
   default:
     external:
       name: phantom-network
+
+volumes:
+  redis:
+    external: false

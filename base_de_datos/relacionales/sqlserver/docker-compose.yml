@@ -9,7 +9,7 @@ services:
       - ./docker-env/mssql.env
 
     volumes:
-      - ./volumes/mssql:/var/opt/mssql
+      - mssql:/var/opt/mssql:rw
 
     ports:
       - ${EXTERNAL_PORT:-1433}:1433
@@ -18,3 +18,7 @@ networks:
   default:
     external:
       name: phantom-network
+
+volumes:
+  mssql:
+    external: false

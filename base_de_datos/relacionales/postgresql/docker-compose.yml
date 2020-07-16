@@ -9,8 +9,7 @@ services:
       - ./docker-env/postgres.env
 
     volumes:
-      - ./volumes/postgres/postgres-data:/var/lib/postgresql/data
-      - ./volumes/postgres/sql/:/volumes/sql/
+      - postgres:/volumes/sql/:rw
 
     ports:
       - ${EXTERNAL_PORT:-5432}:5432
@@ -19,3 +18,7 @@ networks:
   default:
     external:
       name: phantom-network
+
+volumes:
+  postgres:
+    external: false
