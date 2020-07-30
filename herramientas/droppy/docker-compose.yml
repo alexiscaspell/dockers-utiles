@@ -10,7 +10,7 @@ services:
             - droppy:/config:rw
             - droppy:/files:rw
         ports:
-            - 8989:8989
+            - ${EXTERNAL_PORT:-8989}:8989
 
 networks:
     default:
