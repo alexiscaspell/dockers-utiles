@@ -1,0 +1,22 @@
+version: "3.7"
+
+services:
+    droppy:
+        image: silverwind/droppy
+        restart: always
+        env_file:
+            - ./docker-env/droppy.env
+        volumes:
+            - droppy:/config:rw
+            - droppy:/files:rw
+        ports:
+            - 8989:8989
+
+networks:
+    default:
+        external:
+            name: phantom-network
+
+volumes:
+    droppy:
+        external: false
